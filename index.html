@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/46795d6961.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create account</h2>
+        </div>
+        <form action="" class="form" id="form">
+            <div class="form-control">
+                <label for="">Username</label>
+                <input type="text" placeholder="Juan Martinez" id="username">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="">Email</label>
+                <input type="email" placeholder="juanmartinez@gmail.com" id="email">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="">Password</label>
+                <input type="password" placeholder="Your password" id="password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="">Password check</label>
+                <input type="password" placeholder="Repeat password" id="passwordCheck">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
